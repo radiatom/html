@@ -1,19 +1,21 @@
-*{
-padding: 0;
-margin: 0;
-border: 0;
-box-sizing: border-box;
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap); /* &display=swap дописується щоб швидше гугл підгружав шрифти,  &subset=cyrillic-ext дописати до імпорту шрифта якщо використовується крилиця */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
 }
-a{
+a {
   text-decoration: none;
 }
-li{
+li {
   list-style: none;
 }
-img{
+img {
   vertical-align: top;
 }
-h6{
+h6 {
   font-weight: inherit;
   font-size: inherit;
 }
@@ -22,5 +24,5 @@ body {
   line-height: 1;
   font-size: 16px;
   color: black;
+  font-family: Montserrat; /* якщо в назві два слова то потрібні кавички"" */
 }
-
