@@ -10,11 +10,11 @@
     <form action="#" method="get" enctype="multipart/form-data">
       <div>
         <p>Name</p>
-        <input type="text" value="" name="name" placeholder="name" />
+        <input type="text" placeholder="Name" name="name" value="" />
       </div>
       <div>
         <p>Password</p>
-        <input type="password" value="" name="password" />
+        <input type="password" name="password" value="" />
       </div>
       <div>
         <p>Phone number</p>
@@ -22,10 +22,8 @@
       </div>
       <div>
         <p>Sex</p>
-        <div>
-          <input checked type="radio" name="sex" value="female" />female
-        </div>
-        <div><input type="radio" name="sex" value="male" />male</div>
+        <div><input type="radio" checked name="sex" value="male" />Male</div>
+        <div><input type="radio" name="sex" value="fomale" />Fomale</div>
       </div>
       <div>
         <p>Property</p>
@@ -36,27 +34,28 @@
         </div>
       </div>
       <div>
-        <p>Additional Information</p>
-        <textarea name="information" cols="20" rows="2" ></textarea>
+        <p>Editional information</p>
+        <textarea name="information"></textarea>
       </div>
       <div>
-        <p>Pin foto</p>
-        <input type="file" name="foto" value="" />
+        <p>Send foto</p>
+        <input type="file" name="foto" />
       </div>
       <div>
-        <p>Favorite color</p>
+        <p>Favorit color</p>
         <select name="color">
-          <option name="yellow" value="">yellow</option>
-          <option name="green" value="">green</option>
-          <option name="red" value="">red</option>
+          <option value="yelloy">yelloy</option>
+          <option value="green">green</option>
+          <option selected value="red">red</option>
         </select>
       </div>
       <div>
         <p>Action</p>
-        <button type="submit">send</button>
-        <button type="reset">reset</button>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
       </div>
     </form>
+
     <!-- <form action="#" method="post" enctype="multipart/form-data"></form>
     <div>
       <input tabindex="1" placeholder="content text" type="text" name="username" value="" />

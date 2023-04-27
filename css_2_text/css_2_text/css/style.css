@@ -1,0 +1,197 @@
+/*0*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*--------------------*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: #445161;
+  font-size: 30px;
+}
+.p1 {
+  line-height: 25px;
+  color: #333333;
+}
+.fontsize25 {
+  font-size: 25px;
+  line-height: 30px;
+}
+.bolt {
+  font-weight: bold;
+}
+.textred {
+  color: red;
+}
+.fotsize20 {
+  font-size: 20px;
+  line-height: 30px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.italicFont {
+  font-style: italic;
+}
+.textright {
+  text-align: right;
+}
+.textcenter {
+  text-align: center;
+}
+.textdecoration {
+  text-decoration: underline;
+}
+.fontsize24 {
+  font-size: 24px;
+}
+.textline {
+  text-decoration: line-through;
+}
+.fonttime {
+  font-family: "Times New Roman", Times, serif;
+}
+.tetxshadow {
+  text-shadow: 1px 1px 1px black;
+}
+
+/* .arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fontsize30 {
+  font-size: 30px;
+}
+.italic {
+  font-style: italic;
+}
+.font700 {
+  font-weight: 700;
+}
+.colorred {
+  color: red;
+}
+.textright {
+  text-align: right;
+}
+.textcenter {
+  text-align: center;
+}
+.textleft {
+  text-align: left;
+}
+.textjufty {
+  text-align: justify;
+}
+.decoration-line-through {
+  text-decoration: line-through;
+}
+.decoration-overline {
+  text-decoration: overline;
+}
+.decoration-underline {
+  text-decoration: underline;
+}
+.shadow {
+  text-shadow: 1px 1px 1px rgb(0, 255, 42);
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.text-indent {
+  text-indent: 50px;
+}
+.letter-spacing {
+  letter-spacing: 10px;
+}
+.word-spacing {
+  word-spacing: 10px;
+}
+.lineheight {
+  line-height: 30px;
+}
+.white-space {
+  white-space: nowrap;
+} */
