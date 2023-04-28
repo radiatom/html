@@ -1,0 +1,155 @@
+/*0*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+}
+/*--------------------*/
+body {
+  font-size: 20px;
+  padding: 123px 0 123px 291px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 36px;
+  color: #273d46;
+}
+
+h4 {
+  color: #000000;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  font-weight: 400;
+  line-height: 40px;
+}
+ul {
+  margin: 0 0 137px 0;
+}
+ul li {
+  background: url("./../img/check_icon.png") 0 7px no-repeat;
+  padding: 0 0 0 35px;
+}
+ul li:nth-child(1) {
+  text-decoration: line-through;
+}
+ul li:nth-child(2) {
+  font-weight: bold;
+}
+ul li:nth-child(3) {
+  font-style: italic;
+}
+ul li:nth-child(4) {
+  text-transform: uppercase;
+}
+ul li:nth-child(5) {
+  margin: 81px 0 0 0;
+}
+ul li:nth-child(6) {
+  color: #d55a5a;
+}
+
+ul li:hover {
+  color: red;
+  background: url("./../img/check_icon\ red.png") 0 7px no-repeat;
+}
+.link {
+  margin: 0 0 125px 0;
+  padding: 0 0 0 30px;
+  font-size: 14px;
+  line-height: 42px;
+  letter-spacing: 2.8px;
+  display: inline-block;
+  width: 199px;
+  height: 44px;
+  border-radius: 20px;
+  background: #80b7b3 url("./../img/Shape_2.png") 151px 15px no-repeat;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.link:hover {
+  background: #273d46 url("./../img/Shape_2.png") 151px 15px no-repeat;
+}
+.link:active{
+  background: #818181 url("./../img/Shape_2.png") 151px 15px no-repeat;
+}
+.inputtext {
+  width: 292px;
+  height: 50px;
+  display: block;
+  border: 1px solid #b0b0b0;
+}
+.inputtext:focus{
+  box-shadow: 0 0 20px rgba(127, 190, 213, 0.93);
+  border: 1px solid #7fbed5;
+}
