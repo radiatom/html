@@ -1,0 +1,170 @@
+/*0*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+}
+/*--------------------*/
+
+.container {
+  max-width: 765px;
+  margin: auto;
+  margin-top: 123px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #273d46;
+  line-height: 36px;
+}
+h4 {
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #000000;
+}
+ul {
+  margin: 0 0 113px 0;
+}
+ul li:nth-child(1) {
+  text-decoration: line-through;
+}
+ul li:nth-child(2) {
+  font-weight: bold;
+}
+ul li:nth-child(3) {
+  font-style: italic;
+}
+ul li:nth-child(4) {
+  text-transform: uppercase;
+  margin: 0 0 81px 0;
+}
+ul li:before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 19px;
+  background: url("./../img/check_icon.png") no-repeat;
+  margin: 0 11px 0 0;
+}
+ul li:hover {
+  color: #d55a5a;
+}
+ul li:hover:before {
+  background: url("./../img/check_icon\ red.png") no-repeat;
+}
+
+.link {
+  display: inline-block;
+  width: 199px;
+  height: 44px;
+  background: #80b7b3;
+  padding: 0 0 0 30px;
+  margin: 0 0 118px 0;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #ffffff;
+}
+.link:after {
+  content: "";
+  margin: 15px 0 0 11px;
+  display: inline-block;
+  width: 21px;
+  height: 14px;
+  background: url("./../img/Shape_2.png") no-repeat;
+}
+.link:hover {
+  background: #3a5856;
+}
+.link:active {
+  background: #818181;
+}
+.container p {
+  color: #000000;
+  font-size: 18px;
+  line-height: 28px;
+}
+.text1 {
+  margin: 0 0 43px 0;
+}
+.text1::first-line{
+  color: red;
+}
+.text2::first-letter{
+  font-size: 25px;
+  color: red;
+}
